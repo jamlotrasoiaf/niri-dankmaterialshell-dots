@@ -12,8 +12,8 @@
       "exec": "/usr/lib/firefox/firefox %u",
       "icon": "firefox",
       "comment": "Browse the World Wide Web",
-      "usageCount": 10,
-      "lastUsed": 1754421209197
+      "usageCount": 12,
+      "lastUsed": 1754421912149
     },
     "kitty": {
       "name": "kitty",
@@ -54,6 +54,14 @@
       "comment": "Vesktop is a custom Discord App aiming to give you better performance and improve linux support. Vencord comes pre-installed",
       "usageCount": 1,
       "lastUsed": 1754420627499
+    },
+    "org.gnome.Nautilus": {
+      "name": "Files",
+      "exec": "nautilus --new-window %U",
+      "icon": "org.gnome.Nautilus",
+      "comment": "Access and organize files",
+      "usageCount": 1,
+      "lastUsed": 1754422061050
     }
   },
   "use24HourClock": true,
@@ -111,8 +119,8 @@
   "fontFamily": "Inter Variable",
   "monoFontFamily": "Fira Code",
   "fontWeight": 400,
-  "gtkThemingEnabled": true,
-  "qtThemingEnabled": true,
+  "gtkThemingEnabled": false,
+  "qtThemingEnabled": false,
   "showDock": true,
   "pinnedApps": [
     "kitty",
