@@ -36,8 +36,8 @@
       "exec": "nwg-look",
       "icon": "nwg-look",
       "comment": "Customizes GTK3 look and feel settings",
-      "usageCount": 3,
-      "lastUsed": 1754416004614
+      "usageCount": 4,
+      "lastUsed": 1754416875073
     }
   },
   "use24HourClock": true,
