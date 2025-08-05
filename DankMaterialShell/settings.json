@@ -12,16 +12,16 @@
       "exec": "/usr/lib/firefox/firefox %u",
       "icon": "firefox",
       "comment": "Browse the World Wide Web",
-      "usageCount": 8,
-      "lastUsed": 1754418479495
+      "usageCount": 10,
+      "lastUsed": 1754421209197
     },
     "kitty": {
       "name": "kitty",
       "exec": "kitty",
       "icon": "kitty",
       "comment": "Fast, feature-rich, GPU based terminal",
-      "usageCount": 9,
-      "lastUsed": 1754418228421
+      "usageCount": 10,
+      "lastUsed": 1754421061985
     },
     "warpgui": {
       "name": "GUI for Cloudflare ™ WARP",
@@ -38,6 +38,22 @@
       "comment": "Customizes GTK3 look and feel settings",
       "usageCount": 4,
       "lastUsed": 1754416875073
+    },
+    "spotify": {
+      "name": "Spotify",
+      "exec": "spotify --uri=%u",
+      "icon": "spotify-client",
+      "comment": "",
+      "usageCount": 3,
+      "lastUsed": 1754420535403
+    },
+    "vesktop": {
+      "name": "Vesktop",
+      "exec": "/usr/bin/vesktop %U",
+      "icon": "vesktop",
+      "comment": "Vesktop is a custom Discord App aiming to give you better performance and improve linux support. Vencord comes pre-installed",
+      "usageCount": 1,
+      "lastUsed": 1754420627499
     }
   },
   "use24HourClock": true,
@@ -100,7 +116,9 @@
   "showDock": true,
   "pinnedApps": [
     "kitty",
-    "firefox"
+    "firefox",
+    "vesktop",
+    "spotify"
   ],
   "dockAutoHide": true
 }
