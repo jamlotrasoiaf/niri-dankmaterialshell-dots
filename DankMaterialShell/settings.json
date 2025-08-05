@@ -1,0 +1,103 @@
+{
+  "themeIndex": 10,
+  "themeIsDynamic": true,
+  "isLightMode": false,
+  "topBarTransparency": 0.75,
+  "topBarWidgetTransparency": 0.85,
+  "popupTransparency": 0.92,
+  "dockTransparency": 1,
+  "appUsageRanking": {
+    "firefox": {
+      "name": "Firefox",
+      "exec": "/usr/lib/firefox/firefox %u",
+      "icon": "firefox",
+      "comment": "Browse the World Wide Web",
+      "usageCount": 4,
+      "lastUsed": 1754414971438
+    },
+    "kitty": {
+      "name": "kitty",
+      "exec": "kitty",
+      "icon": "kitty",
+      "comment": "Fast, feature-rich, GPU based terminal",
+      "usageCount": 4,
+      "lastUsed": 1754414666791
+    },
+    "warpgui": {
+      "name": "GUI for Cloudflare ™ WARP",
+      "exec": "warpgui %U",
+      "icon": "warpgui",
+      "comment": "Connection encryption",
+      "usageCount": 1,
+      "lastUsed": 1754413800590
+    },
+    "nwg-look": {
+      "name": "GTK Settings",
+      "exec": "nwg-look",
+      "icon": "nwg-look",
+      "comment": "Customizes GTK3 look and feel settings",
+      "usageCount": 3,
+      "lastUsed": 1754416004614
+    }
+  },
+  "use24HourClock": true,
+  "useFahrenheit": false,
+  "nightModeEnabled": false,
+  "profileImage": "",
+  "weatherLocation": "New York, NY",
+  "weatherCoordinates": "40.7128,-74.0060",
+  "useAutoLocation": false,
+  "showLauncherButton": true,
+  "showWorkspaceSwitcher": true,
+  "showFocusedWindow": true,
+  "showWeather": true,
+  "showMusic": true,
+  "showClipboard": true,
+  "showSystemResources": true,
+  "showSystemTray": true,
+  "showClock": true,
+  "showNotificationButton": true,
+  "showBattery": true,
+  "showControlCenterButton": true,
+  "showWorkspaceIndex": false,
+  "showWorkspacePadding": false,
+  "topBarLeftWidgets": [
+    "launcherButton",
+    "workspaceSwitcher",
+    "focusedWindow"
+  ],
+  "topBarCenterWidgets": [
+    "clock",
+    "music",
+    "weather"
+  ],
+  "topBarRightWidgets": [
+    "systemTray",
+    "clipboard",
+    "systemResources",
+    "notificationButton",
+    "battery",
+    "controlCenterButton"
+  ],
+  "appLauncherViewMode": "grid",
+  "spotlightModalViewMode": "list",
+  "networkPreference": "wifi",
+  "iconTheme": "System Default",
+  "useOSLogo": true,
+  "osLogoColorOverride": "",
+  "osLogoBrightness": 0.5,
+  "osLogoContrast": 1,
+  "wallpaperPath": "/home/sunny/Pictures/cat-vibin.png",
+  "wallpaperDynamicTheming": true,
+  "wallpaperLastPath": "/home/sunny/Pictures",
+  "profileLastPath": "",
+  "doNotDisturb": false,
+  "fontFamily": "Inter Variable",
+  "monoFontFamily": "Fira Code",
+  "fontWeight": 400,
+  "gtkThemingEnabled": true,
+  "qtThemingEnabled": true,
+  "showDock": true,
+  "pinnedApps": [],
+  "dockAutoHide": true
+}
