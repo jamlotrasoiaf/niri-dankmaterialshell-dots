@@ -386,6 +386,10 @@ binds {
     // Mod-Shift-/, which is usually the same as Mod-?,
     // shows a list of important hotkeys.
     Mod+Shift+Slash { show-hotkey-overlay; }
+
+    Mod+T hotkey-overlay-title="Launch kitty" {
+	spawn "kitty";
+    }
     
     Mod+Shift+Space hotkey-overlay-title="Reload shell" {
 	spawn "sh" "-c" "killall qs && qs -c DankMaterialShell";
@@ -644,4 +648,8 @@ binds {
     // Powers off the monitors. To turn them back on, do any input like
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
+}
+
+hotkey-overlay {
+    skip-at-startup
 }

@@ -12,24 +12,24 @@
       "exec": "/usr/lib/firefox/firefox %u",
       "icon": "firefox",
       "comment": "Browse the World Wide Web",
-      "usageCount": 4,
-      "lastUsed": 1754414971438
+      "usageCount": 8,
+      "lastUsed": 1754418479495
     },
     "kitty": {
       "name": "kitty",
       "exec": "kitty",
       "icon": "kitty",
       "comment": "Fast, feature-rich, GPU based terminal",
-      "usageCount": 4,
-      "lastUsed": 1754414666791
+      "usageCount": 9,
+      "lastUsed": 1754418228421
     },
     "warpgui": {
       "name": "GUI for Cloudflare ™ WARP",
       "exec": "warpgui %U",
       "icon": "warpgui",
       "comment": "Connection encryption",
-      "usageCount": 1,
-      "lastUsed": 1754413800590
+      "usageCount": 2,
+      "lastUsed": 1754417674952
     },
     "nwg-look": {
       "name": "GTK Settings",
@@ -43,10 +43,10 @@
   "use24HourClock": true,
   "useFahrenheit": false,
   "nightModeEnabled": false,
-  "profileImage": "",
+  "profileImage": "/home/sunny/Pictures/mahiro.jpg",
   "weatherLocation": "New York, NY",
   "weatherCoordinates": "40.7128,-74.0060",
-  "useAutoLocation": false,
+  "useAutoLocation": true,
   "showLauncherButton": true,
   "showWorkspaceSwitcher": true,
   "showFocusedWindow": true,
@@ -90,7 +90,7 @@
   "wallpaperPath": "/home/sunny/Pictures/cat-vibin.png",
   "wallpaperDynamicTheming": true,
   "wallpaperLastPath": "/home/sunny/Pictures",
-  "profileLastPath": "",
+  "profileLastPath": "/home/sunny/Pictures",
   "doNotDisturb": false,
   "fontFamily": "Inter Variable",
   "monoFontFamily": "Fira Code",
@@ -98,6 +98,9 @@
   "gtkThemingEnabled": true,
   "qtThemingEnabled": true,
   "showDock": true,
-  "pinnedApps": [],
+  "pinnedApps": [
+    "kitty",
+    "firefox"
+  ],
   "dockAutoHide": true
 }
