@@ -36,8 +36,8 @@
       "exec": "nwg-look",
       "icon": "nwg-look",
       "comment": "Customizes GTK3 look and feel settings",
-      "usageCount": 7,
-      "lastUsed": 1754462638503
+      "usageCount": 11,
+      "lastUsed": 1754463917469
     },
     "spotify": {
       "name": "Spotify",
@@ -60,8 +60,16 @@
       "exec": "nautilus --new-window %U",
       "icon": "org.gnome.Nautilus",
       "comment": "Access and organize files",
-      "usageCount": 7,
-      "lastUsed": 1754462830585
+      "usageCount": 10,
+      "lastUsed": 1754463633692
+    },
+    "nemo": {
+      "name": "Nemo",
+      "exec": "nemo %U",
+      "icon": "system-file-manager",
+      "comment": "Access and organise files",
+      "usageCount": 1,
+      "lastUsed": 1754464083335
     }
   },
   "use24HourClock": true,
@@ -93,7 +101,10 @@
   "topBarCenterWidgets": [
     "clock",
     "music",
-    "weather"
+    {
+      "id": "weather",
+      "enabled": false
+    }
   ],
   "topBarRightWidgets": [
     "systemTray",
@@ -126,7 +137,8 @@
     "kitty",
     "firefox",
     "vesktop",
-    "spotify"
+    "spotify",
+    "nemo"
   ],
   "dockAutoHide": true
 }
