@@ -2,9 +2,9 @@
   "themeIndex": 10,
   "themeIsDynamic": true,
   "isLightMode": false,
-  "topBarTransparency": 0.75,
-  "topBarWidgetTransparency": 0.85,
-  "popupTransparency": 0.92,
+  "topBarTransparency": 0.5,
+  "topBarWidgetTransparency": 0.8,
+  "popupTransparency": 0.9,
   "dockTransparency": 1,
   "appUsageRanking": {
     "firefox": {
@@ -12,8 +12,8 @@
       "exec": "/usr/lib/firefox/firefox %u",
       "icon": "firefox",
       "comment": "Browse the World Wide Web",
-      "usageCount": 12,
-      "lastUsed": 1754421912149
+      "usageCount": 13,
+      "lastUsed": 1754461567610
     },
     "kitty": {
       "name": "kitty",
@@ -36,8 +36,8 @@
       "exec": "nwg-look",
       "icon": "nwg-look",
       "comment": "Customizes GTK3 look and feel settings",
-      "usageCount": 4,
-      "lastUsed": 1754416875073
+      "usageCount": 7,
+      "lastUsed": 1754462638503
     },
     "spotify": {
       "name": "Spotify",
@@ -52,16 +52,16 @@
       "exec": "/usr/bin/vesktop %U",
       "icon": "vesktop",
       "comment": "Vesktop is a custom Discord App aiming to give you better performance and improve linux support. Vencord comes pre-installed",
-      "usageCount": 1,
-      "lastUsed": 1754420627499
+      "usageCount": 2,
+      "lastUsed": 1754462122537
     },
     "org.gnome.Nautilus": {
       "name": "Files",
       "exec": "nautilus --new-window %U",
       "icon": "org.gnome.Nautilus",
       "comment": "Access and organize files",
-      "usageCount": 1,
-      "lastUsed": 1754422061050
+      "usageCount": 7,
+      "lastUsed": 1754462830585
     }
   },
   "use24HourClock": true,
@@ -117,7 +117,7 @@
   "profileLastPath": "/home/sunny/Pictures",
   "doNotDisturb": false,
   "fontFamily": "Inter Variable",
-  "monoFontFamily": "Fira Code",
+  "monoFontFamily": "Agave Nerd Font Mono",
   "fontWeight": 400,
   "gtkThemingEnabled": false,
   "qtThemingEnabled": false,
