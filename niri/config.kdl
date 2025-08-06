@@ -653,3 +653,10 @@ binds {
 hotkey-overlay {
     skip-at-startup
 }
+
+// Disable the hot corners.
+gestures {
+    hot-corners {
+        off
+    }
+}
