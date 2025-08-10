@@ -7,3 +7,4 @@ vim.g.mapleader = " "
 vim.o.guifont = "Agave Nerd Font Mono:h13"
 vim.keymap.set({ "n", "x" }, "<leader>y", [["+y]]) -- copy to system clipboard
 vim.keymap.set({ "n", "x" }, "<leader>p", [["+p]]) -- paste from system clipboard
+vim.keymap.set('t', '<C-space>', "<C-\\><C-n>",{silent = true})
