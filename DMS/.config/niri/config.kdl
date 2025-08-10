@@ -392,8 +392,8 @@ binds {
     // shows a list of important hotkeys.
     Mod+Shift+Slash { show-hotkey-overlay; }
 
-    Mod+T hotkey-overlay-title="Launch kitty" {
-	spawn "kitty";
+    Mod+T hotkey-overlay-title="Launch neovide" {
+	spawn "neovide";
     }
     
     Mod+Shift+Space hotkey-overlay-title="Reload shell" {
