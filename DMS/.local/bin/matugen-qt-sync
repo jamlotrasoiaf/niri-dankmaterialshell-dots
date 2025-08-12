@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+QTCT_CONF="$HOME/.config/qt6ct/colors/matugen.conf"
+KVANTUM_THEME_DIR="$HOME/.config/Kvantum/MatugenKv"
+KVANTUM_CONFIG="$KVANTUM_THEME_DIR/MatugenKv.kvconfig"
+
+# Extract hex (without #) from qt6ct palette
+get_color() {
+    grep -i "$1" "$QTCT_CONF" | awk -F= '{print $2}' | tr -d '[:space:]#'
+}
+
+BG=$(get_color "Window")
+FG=$(get_color "WindowText")
+ACCENT=$(get_color "Highlight")
+
+# Apply to Kvantum theme
+sed -i "s/^background.color=.*/background.color=#${BG}/" "$KVANTUM_CONFIG"
+sed -i "s/^foreground.color=.*/foreground.color=#${FG}/" "$KVANTUM_CONFIG"
+sed -i "s/^highlight.color=.*/highlight.color=#${ACCENT}/" "$KVANTUM_CONFIG"
+
+# Apply theme immediately
+kvantummanager --set MatugenKv

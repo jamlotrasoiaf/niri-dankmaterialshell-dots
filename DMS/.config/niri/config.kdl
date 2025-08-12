@@ -264,6 +264,7 @@ spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 spawn-at-startup "/usr/lib/policykit-1-pantheon/io.elementary.desktop.agent-polkit"
 spawn-at-startup "jamesdsp" "--tray"
 spawn-at-startup "niri-float-sticky"
+spawn-at-startup "pywalfox" "update"
 
 layer-rule {
     match namespace="^wallpaper$"
@@ -276,15 +277,11 @@ environment {
     ELECTRON_OZONE_PLATFORM_HINT "auto"
     QT_QPA_PLATFORM "wayland"
     QT_QPA_PLATFORMTHEME "qt5ct"
-    QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
-    QT_AUTO_SCREEN_SCALE_FACTOR "1"
-    QT_STYLE_OVERRIDE "kvantum"
+    QT_QPA_PLATFORMTHEME_QT6 "qt6ct"
     _JAVA_AWT_WM_NONREPARENTING "1"
     GDK_BACKEND "wayland,x11,*"
     SDL_VIDEODRIVER "wayland"
     CLUTTER_BACKEND "wayland,x11,*"
-    RUSTUP_HOME "/mnt/storage/rust/.rustup"
-    CARGO_HOME "/mnt/storage/rust/.cargo"
 }
 
 cursor {
@@ -392,8 +389,8 @@ binds {
     // shows a list of important hotkeys.
     Mod+Shift+Slash { show-hotkey-overlay; }
 
-    Mod+T hotkey-overlay-title="Launch neovide" {
-	spawn "neovide";
+    Mod+T hotkey-overlay-title="Launch ghostty" {
+	spawn "ghostty";
     }
     
     Mod+Shift+Space hotkey-overlay-title="Reload shell" {
