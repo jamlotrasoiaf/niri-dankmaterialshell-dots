@@ -258,13 +258,12 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "qs" "-c" "DankMaterialShell"
-spawn-at-startup "sh" "-c" "swaybg -m fill -i $HOME/Pictures/cat_leaves_blurred.png"
+// spawn-at-startup "sh" "-c" "swaybg -m fill -i $HOME/Pictures/cat_leaves_blurred.png"
 spawn-at-startup "xwayland-satellite" ":12"
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 spawn-at-startup "/usr/lib/policykit-1-pantheon/io.elementary.desktop.agent-polkit"
 spawn-at-startup "jamesdsp" "--tray"
 spawn-at-startup "niri-float-sticky"
-spawn-at-startup "pywalfox" "update"
 
 layer-rule {
     match namespace="^wallpaper$"
