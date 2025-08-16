@@ -272,7 +272,7 @@ layer-rule {
 
 environment {
     DISPLAY ":12"
-    XCURSOR_THEME "catppuccin-mocha-dark-cursors"
+    XCURSOR_THEME "everforest-cursors"
     ELECTRON_OZONE_PLATFORM_HINT "auto"
     QT_QPA_PLATFORM "wayland"
     QT_QPA_PLATFORMTHEME "qt5ct"
@@ -284,7 +284,7 @@ environment {
 }
 
 cursor {
-    xcursor-theme "catppuccin-mocha-dark-cursors"
+    xcursor-theme "everforest-cursors"
     hide-when-typing
 }
 
