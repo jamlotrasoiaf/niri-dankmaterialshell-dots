@@ -259,7 +259,6 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "qs" "-c" "DankMaterialShell"
 spawn-at-startup "sh" "-c" "swaybg -m fill -i $HOME/Pictures/swaybg/blurred_buildings.png"
-spawn-at-startup "xwayland-satellite" ":12"
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 spawn-at-startup "/usr/lib/policykit-1-pantheon/io.elementary.desktop.agent-polkit"
 spawn-at-startup "jamesdsp" "--tray"
@@ -271,7 +270,6 @@ layer-rule {
 }
 
 environment {
-    DISPLAY ":12"
     XCURSOR_THEME "everforest-cursors"
     ELECTRON_OZONE_PLATFORM_HINT "auto"
     QT_QPA_PLATFORM "wayland"
