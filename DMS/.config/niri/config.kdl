@@ -290,7 +290,7 @@ environment {
 
 cursor {
     xcursor-theme "phinger-cursors-dark"
-	xcursor-size "24"
+	xcursor-size 24
 }
 
 prefer-no-csd
