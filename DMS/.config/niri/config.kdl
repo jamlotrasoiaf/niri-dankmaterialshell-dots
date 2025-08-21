@@ -272,7 +272,8 @@ layer-rule {
 
 environment {
     DISPLAY ":12"
-    XCURSOR_THEME "everforest-cursors"
+    XCURSOR_THEME "phinger-cursors"
+	XCURSOR_SIZE "24"
     ELECTRON_OZONE_PLATFORM_HINT "auto"
     QT_QPA_PLATFORM "wayland"
     QT_QPA_PLATFORMTHEME "qt5ct"
@@ -286,8 +287,8 @@ environment {
 }
 
 cursor {
-    xcursor-theme "everforest-cursors"
-    hide-when-typing
+    xcursor-theme "phinger-cursors-dark"
+	xcursor-size "24"
 }
 
 prefer-no-csd
