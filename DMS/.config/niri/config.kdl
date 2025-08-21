@@ -284,6 +284,8 @@ environment {
     CLUTTER_BACKEND "wayland,x11,*"
     RUSTUP_HOME "/home/sunny/rust/.rustup"
     CARGO_HOME "/home/sunny/rust/.cargo"
+	EDITOR "nvim"
+	SYSTEMD_EDITOR "nvim"
 }
 
 cursor {
